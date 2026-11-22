@@ -10,13 +10,14 @@ Simulation developed in Wokwi that controls a two-way traffic light intersection
 ## Pinout Configuration
 | Component | ESP32-S3 Pin |
 | :--- | :--- |
-| Traffic Light 1 - Red | GPIO 4 |
-| Traffic Light 1 - Yellow | GPIO 5 |
-| Traffic Light 1 - Green | GPIO 6 |
-| Traffic Light 2 - Red | GPIO 1 |
-| Traffic Light 2 - Yellow | GPIO 2 |
-| Traffic Light 2 - Green | GPIO 13 |
-| Common Ground | GND |
+| Traffic Light 1 - LED 1 | GPIO 1 |
+| Traffic Light 1 - LED 2 | GPIO 38 |
+| Traffic Light 1 - LED 3 | GPIO 20 |
+| Traffic Light 2 - LED 4 | GPIO 5 |
+| Traffic Light 2 - LED 5 | GPIO 6 |
+| Traffic Light 2 - LED 6 | GPIO 7 |
+| Traffic Light 1 Ground (LEDs 1-3) | GND (Group 4) |
+| Traffic Light 2 Ground (LEDs 4-6) | GND (Group 1) |
 
 ## Simulation
 Test the live circuit directly on Wokwi: https://wokwi.com/projects/481433131412972545
